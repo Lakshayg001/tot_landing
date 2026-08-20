@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-tot-orange/5 rounded-full blur-3xl -z-10"></div>
 
       {/* Left Content */}
-      <div className="flex-1 flex flex-col items-start space-y-6 z-10">
+      <div className="flex-1 flex flex-col items-start space-y-6 z-10 mt-8 md:mt-12">
         
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-tot-navy">
           We're Building Something <span className="text-tot-orange">Awesome</span> for Students Like You!
