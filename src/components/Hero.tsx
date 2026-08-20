@@ -2,7 +2,7 @@ import heroImg from '../assets/childonright.png';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full px-6 md:px-12 pt-0 pb-12 md:pt-0 md:pb-24 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 min-h-[calc(100vh-100px)] -mt-8 md:-mt-24 z-10">
+    <section className="relative w-full px-6 md:px-12 pt-0 pb-12 md:pt-0 md:pb-24 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 min-h-[calc(100vh-100px)] mt-0 md:-mt-24 z-10">
       {/* Decorative background shapes */}
       <div className="absolute top-20 left-10 w-64 h-64 bg-tot-blue/5 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-tot-orange/5 rounded-full blur-3xl -z-10"></div>
