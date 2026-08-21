@@ -11,11 +11,11 @@ const Hero: React.FC = () => {
       <div className="flex-1 flex flex-col items-start space-y-6 z-10 mt-8 md:mt-12">
 
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-tot-navy">
-          We're Building Something <span className="text-tot-orange">Awesome</span> for Students Like You!
+          We're Building Something <span className="text-tot-orange">Awesome</span> for Students Like <span className="text-tot-green">You!</span>
         </h1>
 
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl">
-          The Only Teacher is an innovative learning platform designed to help students <span className="font-semibold text-tot-blue">Connect</span>, <span className="font-semibold text-tot-green">Learn</span>, and <span className="font-semibold text-tot-orange">Grow</span> with better resources, guidance, and <span className="text-tot-green">support</span>.
+          The Only Teacher is an innovative learning platform designed to help students <span className="font-semibold text-tot-blue">Connect</span>, <span className="font-semibold text-tot-green">Learn</span>, and <span className="font-semibold text-tot-orange">Grow</span> with better resources, guidance, and support.
         </p>
       </div>
 
