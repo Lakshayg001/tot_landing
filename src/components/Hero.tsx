@@ -1,4 +1,4 @@
-import heroImg from '../assets/childonright.png';
+import heroImg from '../assets/updatedtot.jpeg';
 
 const Hero: React.FC = () => {
   return (
@@ -20,11 +20,11 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Right Content - Illustration Placeholder */}
-      <div className="flex-1 relative w-full flex justify-center items-center">
+      <div className="flex-1 relative w-full flex justify-center items-center mt-12 md:mt-0">
         {/* Soft abstract blue blob background */}
         <div className="absolute inset-0 bg-tot-blue/20 rounded-full blur-3xl transform scale-75 -z-10 animate-float-slow"></div>
 
-        <div className="relative w-full max-w-xl flex justify-center items-center">
+        <div className="relative w-full max-w-md lg:max-w-xl flex justify-center items-center">
           <img src={heroImg} alt="Students learning" className="w-full h-auto object-contain relative z-10 animate-float" />
         </div>
       </div>
