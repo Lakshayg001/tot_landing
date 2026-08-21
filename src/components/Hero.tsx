@@ -9,13 +9,13 @@ const Hero: React.FC = () => {
 
       {/* Left Content */}
       <div className="flex-1 flex flex-col items-start space-y-6 z-10 mt-8 md:mt-12">
-        
+
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-tot-navy">
           We're Building Something <span className="text-tot-orange">Awesome</span> for Students Like You!
         </h1>
-        
+
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl">
-          The Only Teacher (TOT) is an innovative learning platform designed to help students <span className="font-semibold text-tot-blue">Connect</span>, <span className="font-semibold text-tot-green">Learn</span>, and <span className="font-semibold text-tot-orange">Grow</span> with better resources, guidance, and support.
+          The Only Teacher is an innovative learning platform designed to help students <span className="font-semibold text-tot-blue">Connect</span>, <span className="font-semibold text-tot-green">Learn</span>, and <span className="font-semibold text-tot-orange">Grow</span> with better resources, guidance, and <span className="text-tot-green">support</span>.
         </p>
       </div>
 
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
       <div className="flex-1 relative w-full flex justify-center items-center">
         {/* Soft abstract blue blob background */}
         <div className="absolute inset-0 bg-tot-blue/20 rounded-full blur-3xl transform scale-75 -z-10 animate-float-slow"></div>
-        
+
         <div className="relative w-full max-w-xl flex justify-center items-center">
           <img src={heroImg} alt="Students learning" className="w-full h-auto object-contain relative z-10 animate-float" />
         </div>
