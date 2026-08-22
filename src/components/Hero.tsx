@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-tot-blue/20 rounded-full blur-3xl transform scale-75 -z-10 animate-float-slow"></div>
 
         <div className="relative w-full max-w-md lg:max-w-xl flex justify-center items-center">
-          <img src={heroImg} alt="Students learning" className="w-full h-auto object-contain relative z-10 animate-float" />
+          <img src={heroImg} alt="Students learning" className="w-full h-auto object-cover rounded-3xl border-8 border-white shadow-[0_20px_50px_rgba(8,112,184,0.2)] relative z-10 animate-float transform transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-[0_30px_60px_rgba(8,112,184,0.4)]" />
         </div>
       </div>
     </section>
